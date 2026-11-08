@@ -1,0 +1,1 @@
+const s="letture-fat-condivisi",e="letture-fat-app-v3",n=["app-v1","app-v2","condivisi"];function c(a){return a.filter(t=>t!==e&&t!==s&&(t.startsWith("letture-fat-")||n.includes(t)))}const o="./condiviso.pdf";async function r(a){const i=(await a.formData()).get("pdf");return i instanceof File&&i.size>0?i:null}export{s as C,o as a,e as b,c,r as e};
