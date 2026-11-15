@@ -1,6 +1,6 @@
 {
-  "name": "Letture FAT",
-  "short_name": "Letture FAT",
+  "name": "Leggi campioni",
+  "short_name": "Leggi campioni",
   "lang": "it",
   "start_url": "./",
   "scope": "./",
